@@ -1,0 +1,11 @@
+# Ignore directories
+Code/
+discord/
+
+# Ignore specific file types
+*.tmp
+
+# Ignore files or directories in specific subdirectories
+.subdir/secret_file
+.subdir/secret_folder/
+

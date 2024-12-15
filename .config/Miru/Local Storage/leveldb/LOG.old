@@ -1,0 +1,88 @@
+2024/12/05-19:20:46.724 4dc3 Reusing MANIFEST /home/adnan/.config/Miru/Local Storage/leveldb/MANIFEST-000001
+2024/12/05-19:20:46.738 4dc3 Recovering log #3
+2024/12/05-19:20:46.740 4dc3 Level-0 table #3: started
+2024/12/05-19:20:46.746 4dc3 Level-0 table #3: 60789 bytes OK
+2024/12/05-19:20:46.753 4dc3 Delete type=0 #3
+2024/12/05-19:21:04.528 4dc4 Level-0 table #6: started
+2024/12/05-19:21:04.584 4dc4 Level-0 table #6: 21122 bytes OK
+2024/12/05-19:21:04.587 4dc4 Delete type=0 #4
+2024/12/05-19:21:05.576 4dc4 Level-0 table #8: started
+2024/12/05-19:21:05.631 4dc4 Level-0 table #8: 15373 bytes OK
+2024/12/05-19:21:05.633 4dc4 Delete type=0 #5
+2024/12/05-19:21:08.146 4dc4 Level-0 table #10: started
+2024/12/05-19:21:08.205 4dc4 Level-0 table #10: 17298 bytes OK
+2024/12/05-19:21:08.208 4dc4 Delete type=0 #7
+2024/12/05-19:21:08.208 4dc4 Compacting 4@0 + 0@1 files
+2024/12/05-19:21:08.213 4dc4 Generated table #11@0: 14 keys, 78096 bytes
+2024/12/05-19:21:08.213 4dc4 Compacted 4@0 + 0@1 files => 78096 bytes
+2024/12/05-19:21:08.216 4dc4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/12/05-19:21:08.216 4dc4 Delete type=2 #3
+2024/12/05-19:21:08.216 4dc4 Delete type=2 #6
+2024/12/05-19:21:08.216 4dc4 Delete type=2 #10
+2024/12/05-19:21:08.216 4dc4 Delete type=2 #8
+2024/12/05-19:21:09.872 4dc4 Level-0 table #13: started
+2024/12/05-19:21:09.929 4dc4 Level-0 table #13: 24890 bytes OK
+2024/12/05-19:21:09.932 4dc4 Delete type=0 #9
+2024/12/05-19:21:11.729 4dc3 Level-0 table #15: started
+2024/12/05-19:21:11.786 4dc3 Level-0 table #15: 28316 bytes OK
+2024/12/05-19:21:11.789 4dc3 Delete type=0 #12
+2024/12/05-19:21:16.677 4dc4 Level-0 table #17: started
+2024/12/05-19:21:16.735 4dc4 Level-0 table #17: 30570 bytes OK
+2024/12/05-19:21:16.737 4dc4 Delete type=0 #14
+2024/12/05-19:21:24.616 4dc4 Level-0 table #19: started
+2024/12/05-19:21:24.673 4dc4 Level-0 table #19: 43191 bytes OK
+2024/12/05-19:21:24.675 4dc4 Delete type=0 #16
+2024/12/05-19:21:24.675 4dc4 Compacting 4@0 + 1@1 files
+2024/12/05-19:21:24.681 4dc4 Generated table #20@0: 14 keys, 103997 bytes
+2024/12/05-19:21:24.681 4dc4 Compacted 4@0 + 1@1 files => 103997 bytes
+2024/12/05-19:21:24.684 4dc4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/12/05-19:21:24.684 4dc4 Delete type=2 #13
+2024/12/05-19:21:24.684 4dc4 Delete type=2 #17
+2024/12/05-19:21:24.684 4dc4 Delete type=2 #19
+2024/12/05-19:21:24.685 4dc4 Delete type=2 #11
+2024/12/05-19:21:24.685 4dc4 Delete type=2 #15
+2024/12/05-19:21:33.666 4dc4 Level-0 table #22: started
+2024/12/05-19:21:33.727 4dc4 Level-0 table #22: 54541 bytes OK
+2024/12/05-19:21:33.730 4dc4 Delete type=0 #18
+2024/12/05-19:21:36.061 4dc4 Level-0 table #24: started
+2024/12/05-19:21:36.120 4dc4 Level-0 table #24: 56408 bytes OK
+2024/12/05-19:21:36.123 4dc4 Delete type=0 #21
+2024/12/05-19:21:37.656 4dc4 Level-0 table #26: started
+2024/12/05-19:21:37.663 4dc4 Level-0 table #26: 62291 bytes OK
+2024/12/05-19:21:37.668 4dc4 Delete type=0 #23
+2024/12/05-19:21:38.714 4dc4 Level-0 table #28: started
+2024/12/05-19:21:38.722 4dc4 Level-0 table #28: 65901 bytes OK
+2024/12/05-19:21:38.726 4dc4 Delete type=0 #25
+2024/12/05-19:21:38.726 4dc4 Compacting 4@0 + 1@1 files
+2024/12/05-19:21:38.732 4dc4 Generated table #29@0: 14 keys, 126719 bytes
+2024/12/05-19:21:38.732 4dc4 Compacted 4@0 + 1@1 files => 126719 bytes
+2024/12/05-19:21:38.735 4dc4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/12/05-19:21:38.735 4dc4 Delete type=2 #28
+2024/12/05-19:21:38.735 4dc4 Delete type=2 #24
+2024/12/05-19:21:38.735 4dc4 Delete type=2 #22
+2024/12/05-19:21:38.735 4dc4 Delete type=2 #20
+2024/12/05-19:21:38.736 4dc4 Delete type=2 #26
+2024/12/05-19:21:41.775 4dc4 Level-0 table #31: started
+2024/12/05-19:21:41.782 4dc4 Level-0 table #31: 69323 bytes OK
+2024/12/05-19:21:41.785 4dc4 Delete type=0 #27
+2024/12/05-19:21:49.616 4dc4 Level-0 table #33: started
+2024/12/05-19:21:49.651 4dc4 Level-0 table #33: 71356 bytes OK
+2024/12/05-19:21:49.654 4dc4 Delete type=0 #30
+2024/12/05-19:22:00.523 4dc4 Level-0 table #35: started
+2024/12/05-19:22:00.583 4dc4 Level-0 table #35: 83309 bytes OK
+2024/12/05-19:22:00.586 4dc4 Delete type=0 #32
+2024/12/05-19:22:02.894 4dc4 Level-0 table #37: started
+2024/12/05-19:22:02.919 4dc4 Level-0 table #37: 90221 bytes OK
+2024/12/05-19:22:02.924 4dc4 Delete type=0 #34
+2024/12/05-19:22:02.924 4dc4 Compacting 4@0 + 1@1 files
+2024/12/05-19:22:02.931 4dc4 Generated table #38@0: 14 keys, 151067 bytes
+2024/12/05-19:22:02.931 4dc4 Compacted 4@0 + 1@1 files => 151067 bytes
+2024/12/05-19:22:02.932 4dc4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/12/05-19:22:02.933 4dc4 Delete type=2 #37
+2024/12/05-19:22:02.933 4dc4 Delete type=2 #31
+2024/12/05-19:22:02.933 4dc4 Delete type=2 #29
+2024/12/05-19:22:02.933 4dc4 Delete type=2 #35
+2024/12/05-19:22:02.933 4dc4 Delete type=2 #33
+2024/12/05-19:22:07.839 4dc4 Level-0 table #40: started
+2024/12/05-19:22:07.846 4dc4 Level-0 table #40: 94389 bytes OK
+2024/12/05-19:22:07.849 4dc4 Delete type=0 #36

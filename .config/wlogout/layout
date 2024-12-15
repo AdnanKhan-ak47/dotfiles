@@ -1,0 +1,36 @@
+{
+  "label": "lock",
+  "text": "Lock",
+  "action": "~/.config/wlogout/actions.zsh lock",
+  "keybind": "l"
+}
+{
+  "label": "hibernate",
+  "text": "Hibernate",
+  "action": "~/.config/wlogout/actions.zsh hibernate",
+  "keybind": "h"
+}
+{
+  "label": "suspend",
+  "text": "Suspend",
+  "action": "~/.config/wlogout/actions.zsh suspend",
+  "keybind": "u"
+}
+{
+  "label": "reboot",
+  "text": "Reboot",
+  "action": "~/.config/wlogout/actions.zsh reboot",
+  "keybind": "r"
+}
+{
+  "label": "logout",
+  "text": "Logout",
+  "action": "~/.config/wlogout/actions.zsh logout",
+  "keybind": "e"
+}
+{
+  "label": "shutdown",
+  "text": "Shutdown",
+  "action": "~/.config/wlogout/actions.zsh shutdown",
+  "keybind": "s"
+}

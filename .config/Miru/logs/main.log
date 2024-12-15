@@ -1,0 +1,19 @@
+[2024-03-02 18:43:03.325] [info]  Checking for update
+[2024-03-02 18:43:04.638] [info]  Generated new staging user ID: f214d84c-c67e-5df8-8910-03aecff5d699
+[2024-03-02 18:43:06.498] [info]  Update for version 4.5.10 is not available (latest version: 4.5.10, downgrade is disallowed).
+[2024-03-02 18:47:42.137] [info]  Checking for update
+[2024-03-02 18:47:45.268] [info]  Update for version 4.5.10 is not available (latest version: 4.5.10, downgrade is disallowed).
+[2024-12-05 19:20:49.758] [info]  Update for version 5.5.9 is not available (latest version: 5.5.9, downgrade is disallowed).
+[2024-12-05 19:20:49.760] [debug] checkForUpdatesAndNotify called, downloadPromise is null
+[2024-12-05 19:20:55.533] [info]  JASSUB: setting total libass memory limits to: glyph=80000 MiB, bitmap cache=1024 MiB
+[2024-12-05 19:20:55.533] [error] [object ProgressEvent]
+[2024-12-05 19:26:05.948] [info]  Update for version 5.5.9 is not available (latest version: 5.5.9, downgrade is disallowed).
+[2024-12-05 19:26:05.950] [debug] checkForUpdatesAndNotify called, downloadPromise is null
+[2024-12-05 19:27:07.214] [info]  JASSUB: setting total libass memory limits to: glyph=80000 MiB, bitmap cache=1024 MiB
+[2024-12-05 19:27:07.215] [error] [object ProgressEvent]
+[2024-12-05 19:27:21.372] [error] null
+[2024-12-05 19:27:21.372] [error] Uncaught TypeError: Failed to set the 'width' property on 'OffscreenCanvas': Value is not of type 'unsigned long'.
+[2024-12-05 19:27:21.376] [error] Uncaught TypeError: Failed to set the 'width' property on 'OffscreenCanvas': Value is not of type 'unsigned long'.
+[2024-12-05 19:27:49.468] [info]  JASSUB: setting total libass memory limits to: glyph=80000 MiB, bitmap cache=1024 MiB
+[2024-12-05 19:27:49.468] [error] [object ProgressEvent]
+[2024-12-05 19:27:57.842] [error] Uncaught (in promise) AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22
