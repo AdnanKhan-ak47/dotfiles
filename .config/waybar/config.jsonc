@@ -239,7 +239,7 @@
     // "on-click-right": "pkill tofi || gamemoderun tofi-run -c ~/.config/tofi/tofi.launcher.conf"
   },
   "custom/music": {
-    "format": "{icon}{}",
+    "format": "{icon}{0}",
     "format-icons": {
       // "Playing": " ", // Uncomment if not using the dynamic script
       "Paused": " ",
@@ -254,6 +254,7 @@
     "on-scroll-down": "playerctl next",
     "on-click-right": "g4music",
     "max-length": 35
+
   },
   "custom/media": {
     "format": "{icon} {}",
@@ -265,7 +266,7 @@
     },
     "escape": true,
     "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-    // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+   // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
   },
   "custom/weather": {
         "tooltip": true,
