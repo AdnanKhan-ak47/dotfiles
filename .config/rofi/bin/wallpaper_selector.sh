@@ -19,7 +19,7 @@ generate_thumbnails() {
         # Generate a thumbnail if it doesn't exist
         thumb="$CACHE_DIR/$(basename "$img").thumb.png"
         if [ ! -f "$thumb" ]; then
-            magick "$img" -thumbnail 100x100 "$thumb"
+            magick "$img" -thumbnail 1280x720 "$thumb"
         fi
     done
 }
@@ -50,7 +50,7 @@ build_wallpaper_list
 
 # Use rofi to display the wallpaper options with thumbnails
 selected_wallpaper=$(for ((i=0; i<${#wallpaper_list[@]}; i+=2)); do
-    echo -e "${wallpaper_list[$i]}\0image\x1f${wallpaper_list[$i+1]}"
+    echo -e "${wallpaper_list[$i]}\x00icon\x1f${wallpaper_list[$i+1]}"
 done | rofi -dmenu -i -theme "~/.config/rofi/wallpaper.rasi" -show-icons -p "Select Wallpaper")
 
 # If a wallpaper was selected, set it
