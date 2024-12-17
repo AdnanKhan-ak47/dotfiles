@@ -78,7 +78,7 @@ done)")
 update_rofi_config() {
     current_wallpaper=$(cat "$WALLPAPER_TXT")
     # Update the background image URL in the Rofi config file
-    sed -i "s|background-image:.*|background-image: url(\"$current_wallpaper\");|" "$CONFIG_RASI"
+    sed -i "s|background-image:.*|background-image: url(\"$current_wallpaper\", height);|" "$CONFIG_RASI"
 }
 
 # If a wallpaper was selected, set it and save to .wallpaper.txt

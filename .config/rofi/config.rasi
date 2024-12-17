@@ -65,7 +65,8 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image: url("/home/adnan/.config/hypr/wallpapers/wallhaven-gpkd77.jpg");
+    background-image: url("/home/adnan/.config/hypr/wallpapers/wang-xi-eaj25syvaacl3qj.jpg", height);
+    position: center;
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
