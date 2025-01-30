@@ -9,3 +9,19 @@ discord/
 .subdir/secret_file
 .subdir/secret_folder/
 
+# Properly ignore entire directories inside .config
+.config/Youtube Music/
+.config/Miru/
+.config/cef_user_data/
+.config/hypr/wallpapers/
+.config/VirtualBox/
+.config/torbrowser/
+.config/spicetify/
+.config/spotify/
+.config/qBittorrent/
+.config/libreoffice/
+.config/tmux/plugins/
+
+
+# Catch any cache directories
+**/*Cache*/

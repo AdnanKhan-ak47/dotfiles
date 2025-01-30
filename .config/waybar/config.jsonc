@@ -19,7 +19,6 @@
     "custom/music"
   ],
   "modules-right": [
-    "idle_inhibitor",
     "network",
     "pulseaudio",
     "backlight",
@@ -50,13 +49,6 @@
       "urgent": "",
       "focused": "",
       "default": ""
-    }
-  },
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": ""
     }
   },
   "tray": {

@@ -19,10 +19,15 @@ generate_thumbnails() {
         # Skip directories or non-image files
         [ ! -f "$img" ] && continue
 
-        # Generate a thumbnail if it doesn't exist
-        thumb="$CACHE_DIR/$(basename "$img").thumb.png"
+        # Get the file extension of the image
+        ext="${img##*.}"
+
+        # Generate the thumbnail with the same extension as the image
+        thumb="$CACHE_DIR/$(basename "$img" .$ext).thumb.$ext"
+        # Generate the thumbnail if it doesn't exist
         if [ ! -f "$thumb" ]; then
             magick "$img" -thumbnail 1280x720 "$thumb" &
+	    sleep 0.5;
         fi
     done
     wait  # Wait for all background thumbnail generation tasks to finish
@@ -35,7 +40,8 @@ build_wallpaper_list() {
         # Skip directories or non-image files
         [ ! -f "$img" ] && continue
 
-        thumb="$CACHE_DIR/$(basename "$img").thumb.png"
+        ext="${img##*.}"
+        thumb="$CACHE_DIR/$(basename "$img" .$ext).thumb.$ext"
         wallpaper_list+=("$(basename "$img")" "$thumb")
     done
 }
@@ -89,4 +95,3 @@ if [ -n "$selected_wallpaper" ]; then
     # Restart Rofi to reflect the changes
     pkill -USR1 rofi  # This reloads Rofi configuration (use another method if needed)
 fi
-
