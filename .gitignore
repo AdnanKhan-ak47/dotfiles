@@ -21,7 +21,7 @@ discord/
 .config/qBittorrent/
 .config/libreoffice/
 .config/tmux/plugins/
-
+.config/BraveSoftware/
 
 # Catch any cache directories
 **/*Cache*/
